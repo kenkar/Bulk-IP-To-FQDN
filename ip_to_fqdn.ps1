@@ -1,3 +1,8 @@
+######################################################################################################
+# Just open a powershell console and navigate to the folder where the script is and  execute it      #
+# by typing .\ip_to_fqdn.ps1                                                                         #
+######################################################################################################
+
 Write-Host "This script will do bulk nslookup against ip addresses" -ForegroundColor Green
 sleep -Seconds 2
 Write-Host "You'll get 2 questions:" -ForegroundColor Green
