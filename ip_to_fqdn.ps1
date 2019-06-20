@@ -18,7 +18,7 @@ $file = Read-Host -Prompt 'Input file name'
 $input = ("$folder" + "\" + "$file")
 sleep -Seconds 2
 Get-Content $input 
-# O B S !!! If you want output to file instead of screen just remove the # on line 35
+# A T T E N T I O N !!! IF YOU WANT OUTPUT TO FILE INSTEAD REMOVE # ON LINE 35
 $ips = Get-Content $input
 Foreach ($ip in $ips)	{
 $name = nslookup $ip 2> $null | select-string -pattern "Name:"
