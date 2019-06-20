@@ -1,5 +1,5 @@
 # Bulk-IP-To-FQDN
-Powershell script for bulk nsklookup 
+Powershell script for bulk nsklookup of IP addresses to FQDN
 
 This is a rewrite of Dineshswpd's script (Bulk NsLookup.ps1). My intention was to make the script more automatic                     
 so you can chose folder and text file when script is executed instead of editing the script                                          
